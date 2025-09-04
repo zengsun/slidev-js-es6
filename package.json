@@ -1,16 +1,33 @@
 {
-  "name": "js-es6",
+  "name": "js-es6-learning-slides",
+  "description": "JavaScript 与 ES 基础知识学习幻灯片",
+  "version": "1.0.0",
   "type": "module",
   "private": true,
   "scripts": {
     "build": "slidev build",
     "dev": "slidev --open",
-    "export": "slidev export"
+    "export": "slidev export",
+    "preview": "slidev build && slidev --spa"
   },
   "dependencies": {
     "@slidev/cli": "^52.1.0",
     "@slidev/theme-default": "latest",
     "@slidev/theme-seriph": "latest",
     "vue": "^3.5.18"
-  }
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "keywords": [
+    "javascript",
+    "es6",
+    "ecmascript",
+    "tutorial",
+    "slides",
+    "education",
+    "programming"
+  ],
+  "author": "JavaScript 学习者",
+  "license": "MIT"
 }
